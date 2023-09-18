@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form 3
+        </title>
+        <body>
+            <form method="get">
+                <h3>Are you a Indian resident:</h3>
+                <label for="indianr">Indian resident:</label>
+                <input id="indianr" name="loc" type="radio" value="inside">
+                <!-- id should match with label's for and name is loc bc radio should be one only & value = inside because we can tack in backend -->
+                <label for="nonindian">NRI</label>
+                <input type="radio" name="loc" value="outside">
+                <!-- we should put loc in name bc it should be one  & value = outside because we can tack in backend -->
+                <h3>How was our service?</h3>
+                <select name="stars" id="">
+                    <option value="Excellent">3</option>
+                    <option value="Average">2</option>
+                    <option value="Bad">1</option>
+                </select>
+                
+                <h3>Any feedback?</h3>
+                <textarea name="Feedback" id="" cols="30" rows="10">Enter text here</textarea>
+                <!-- name = Feedback to show in backend i.e. the url link above after submitting  -->
+                <p></p>
+                <input type="submit" name="" id="Submit">
+            </form>
+            
+        </body>
+    </head>
+</html>
