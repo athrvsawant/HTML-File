@@ -11,14 +11,15 @@ p{
     color: rgb(251, 136, 13);
 }
 ol{
-    color: blueviolet;
-    background-color: black;
+    color: rgb(9, 1, 16);
+    background: url(https://img.freepik.com/premium-photo/sunset-time-tropical-beach-sea-with-coconut-palm-tree_992269-2.jpg);
 }
 h4{
     background-color: blueviolet;
     border-width: 10px;
     border-color: rgb(25, 216, 76);
     border-style: dashed;
+    /* comment just to test something */
 }
 span{
     background-color: antiquewhite;
