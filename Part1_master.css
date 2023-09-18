@@ -1,14 +1,26 @@
-/* Nksbab  */
-h1{
-    color: orange;
+body{
+    background-color: #D3D3D3;
 }
-li{
-    color: rgb(213, 48, 213);
+div{
+    background-color: rgb(93, 245, 194);
+    border-color: rgb(80, 0, 252);
+    border-width: medium;
+    border-style: dotted;
 }
 p{
-    color: #5f85c2;
+    color: rgb(251, 136, 13);
+}
+ol{
+    color: blueviolet;
+    background-color: black;
 }
 h4{
-    color: rgba(213, 48, 213,0.5);
-    /* rgba a=alpha to adjust transperancy */
+    background-color: blueviolet;
+    border-width: 10px;
+    border-color: rgb(25, 216, 76);
+    border-style: dashed;
+}
+span{
+    background-color: antiquewhite;
+    color: blue;
 }
