@@ -1,1 +1,19 @@
-<>
+.firstDiv{
+    /* here dot(.) is initialized for div class identification */
+    color: rgb(11, 239, 239);
+}
+.secondDiv{
+    /* here dot(.) is initialized for div class identification */
+    background-color: aquamarine;
+    color: rgb(208, 128, 30);
+}
+.thirdDiv{
+    /* here dot(.) is initialized for div class identification */
+    background-color: blueviolet;
+    color: aqua;
+}
+#singledout{
+    /* # is used for id, they are unique */
+    color: rgb(31, 225, 89);
+    text-decoration: line-through;
+}
