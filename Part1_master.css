@@ -1,0 +1,14 @@
+/* Nksbab  */
+h1{
+    color: orange;
+}
+li{
+    color: rgb(213, 48, 213);
+}
+p{
+    color: #5f85c2;
+}
+h4{
+    color: rgba(213, 48, 213,0.5);
+    /* rgba a=alpha to adjust transperancy */
+}
