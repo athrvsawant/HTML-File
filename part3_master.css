@@ -17,3 +17,15 @@
     color: rgb(31, 225, 89);
     text-decoration: line-through;
 }
+h1 + ul {
+    /* above says select unordered list which is immedietly after h1  */
+    border: dotted 4px red;
+}
+
+li a{
+    color: blue;
+}
+
+li a[href="https://www.google.com"] {
+    color: rgb(147, 147, 160);
+}
