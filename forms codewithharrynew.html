@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms with harry</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h3>Enter your details below:</h3>
+        <form action="">
+            <div>
+            <label for="username">Name:</label>
+            <input type="text" name="firstname" id="username" placeholder="First" required>
+            <input type="text" name="lastname" id="username" placeholder="Last" required>
+            <!-- name = username, for backend stuff -->
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="check no one is around" required >
+            </div>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female">
+            <!-- here name = gender bc it is either male or female -->
+            <div>
+                <input type="checkbox" name="checkbox" id="checkbox" required>
+                <label for="checkbox">I, agree with T&C</label>
+                <!-- name = checkbox, for backend stuff -->
+            </div>
+            <div>
+                <label for="countryname">Select country of origin:</label>
+                <select name="country" id="countryname">
+                    <option value="india">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="UAE">UAE</option>
+                    <option value="China">China</option>
+                </select>
+            </div>
+            <div>
+                <label for="textbox">Enter your comments below:</label>
+                <br>
+                <textarea name="textbox" id="" cols="30" rows="10">Enter Your feedback here</textarea>
+            </div>
+            <input type="Submit" name="" id="">
+        </form>
+    </body>
+</html>
